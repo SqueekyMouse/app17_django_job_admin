@@ -2,3 +2,4 @@
 # add app to site settings.py
 # create db: db model in app models.py, makemigration, migrate
 # create index view fn in app views.py, url in app and site urls.py
+# copied over index.html n edit for django
