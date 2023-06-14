@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from .forms import ApplicationForm # import form class we created
+from .models import Form
+from django.contrib import messages
 
 # Create your views here.
 # html need to be in templated folder unless 
@@ -14,6 +16,10 @@ def index(request):
             email=form.cleaned_data['email']
             date=form.cleaned_data['date']
             occupation=form.cleaned_data['occupation']
-            print(first_name)
+            # print(first_name)
+            Form.objects.create(first_name=first_name, last_name=last_name,
+                                email=email, date=date, occupation=occupation)
+            messages.success(request,'Form submitted successfully!')
+
     return(render(request,template_name='index.html')) 
 
