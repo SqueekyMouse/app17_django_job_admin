@@ -4,4 +4,5 @@
 # create index view fn in app views.py, url in app and site urls.py
 # copied over index.html n edit for django
 # create app form class forms.py, inst/validate/extract it and get values in views.py
-# store form data in db and show msg
+# store form data in db and show msg views.py
+# send email from django
