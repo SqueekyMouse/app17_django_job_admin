@@ -3,3 +3,4 @@
 # create db: db model in app models.py, makemigration, migrate
 # create index view fn in app views.py, url in app and site urls.py
 # copied over index.html n edit for django
+# create app form class forms.py, inst/validate/extract it and get values in views.py
