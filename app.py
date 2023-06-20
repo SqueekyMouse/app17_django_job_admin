@@ -9,3 +9,4 @@
 # add admin interface app/admin.py n passwd
 # admin customization app/admin.py
 # base template, add about page, views.py and urls.py
+# add nav bar code to base template, contact page
