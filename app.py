@@ -8,3 +8,4 @@
 # send email from django views.py, mail config in settings.py
 # add admin interface app/admin.py n passwd
 # admin customization app/admin.py
+# base template, add about page, views.py and urls.py
