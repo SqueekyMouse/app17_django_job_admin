@@ -7,3 +7,4 @@
 # store form data in db and show msg views.py
 # send email from django views.py, mail config in settings.py
 # add admin interface app/admin.py n passwd
+# admin customization app/admin.py
